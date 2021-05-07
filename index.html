@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Cross</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@700&display=swap" rel="stylesheet">
+<style>
+    /* CSS reset */
+    body {
+        font-family: 'Baloo Bhaina 2', cursive;
+        color: rgba(255, 249, 255, 0.918);
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg.jpg');
+
+    }
+
+    .left {
+        position: absolute;
+        left: 20px;
+        top: 9px;
+        display: inline-block;
+
+    }
+
+    .left div {
+        line-height: 0px;
+        font-size: 12px;
+    }
+
+    .mid {
+        display: block;
+        width: 52%;
+        margin: 13px auto;
+
+    }
+
+    .right {
+        position: absolute;
+        right: 15px;
+        top: 22px;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .navbar li a {
+        color: whitesmoke;
+        padding: 24px 34px;
+        text-decoration: none;
+    }
+
+    .navbar li a:hover
+    .navbar li a.active {
+        text-decoration: none;
+        color: rgb(202, 202, 202);
+    }
+
+    .left img {
+        width: 66px;
+        filter: invert(100%);
+
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhaina 2', cursive;
+        margin: 4px 13px;
+        background-color: rgb(85, 83, 83);
+        color: whitesmoke;
+        padding: 1px 13px;
+        /* border: 3px solid grey; */
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(105, 103, 103);
+    }
+
+    .container {
+        /* border: 2px solid green; */
+        margin: 106px 80px;
+        padding: 2px;
+        width: 533px;
+        border-radius: 40px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhaina 2', cursive;
+        text-align: center;
+        display: block;
+        width: 397px;
+        padding: 1px;
+        /* border: 2px solid black; */
+        font-size: 15px;
+        margin: 10px auto;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/silhouette-3087517_1280.png" alt="">
+            <div>Fitness Cross</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a> </li>
+                <li><a href="#">About us</a> </li>
+                <li><a href="#">Fitness Calculator</a> </li>
+                <li><a href="#">Contact Us</a> </li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+        <div class="container">
+            <h1>Join the best gym in Delhi now</h1>
+            <form action="npaction.php">
+                
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Email">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Whatsaap Number">
+                </div>
+                <button class="btn">
+                    Submit
+                </button>
+            </form>
+        </div>
+    </header>
+</body>
+
+</html>
